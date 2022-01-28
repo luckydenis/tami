@@ -1,8 +1,11 @@
 """
 Реализовать структуру данных стек
-(FIFO - first in first out)
 На основе list.
 """
+
+
+class BaseStackError(Exception):
+    pass
 
 
 class Stack:
@@ -17,3 +20,13 @@ class Stack:
 
     def contains(self, item):
         pass
+
+    def __len__(self):
+        pass
+
+    def __str__(self):
+        pass
+
+    def __repr__(self):
+        pass
+
